@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:id="@+id/entryBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entry"
+        android:textColor="#0a0909"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_weight="01"/>
+
+    <Button
+        android:id="@+id/showBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textSize="20dp"
+        android:textColor="#0a0909"
+        android:layout_gravity="center"
+        android:layout_weight="01"/>
+
+
+
+</LinearLayout>

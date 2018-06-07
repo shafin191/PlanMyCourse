@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+
+    android:background="@color/background">
+
+
+
+
+    <Button
+            android:id="@+id/routine_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/button"
+            android:text="Routine"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/syllabus_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Syllabus"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"/>
+
+
+        <Button
+            android:id="@+id/cgpaCounter_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="CGPA Counter"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/quiz_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Quiz Schedule"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Settings"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"/>
+
+
+
+</LinearLayout>
+
+

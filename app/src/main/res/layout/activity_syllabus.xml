@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/background_floating_material_dark"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp"
+
+        >
+
+        <Button
+            android:id="@+id/sem1_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/button"
+            android:text="Semester 01"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/sem2_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Semester 02"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp"
+
+        >
+
+        <Button
+            android:id="@+id/sem3_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Semester 03"
+            android:textSize="20dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/sem4_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Semester 04"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp"
+
+        >
+
+        <Button
+            android:id="@+id/sem5_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Semester 05"
+            android:textSize="20dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/sem6_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Semester 06"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp"
+
+        >
+
+        <Button
+            android:id="@+id/sem7_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Semester 07"
+            android:textSize="20dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/sem8_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:text="Semester 08"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
